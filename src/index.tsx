@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import DoodleProps from "./interfaces/DoodleProps";
 
+const SvgComponent = (props: DoodleProps) => (
+    <svg xmlns="http://www.w3.org/2000/svg" height={props.height} width={props.width} viewBox="0 0 110 107">
+        <path d="M51.454 45.628A56942.273 56942.273 0 0 0 12.951 7.78C10.386 5.272 7.647 2.93 4.873.653a2.954 2.954 0 0 0-3.32-.262C.695.833.495 2.476 1.224 3.475c.704.967 1.332 2.002 2.122 2.893 5.038 5.686 9.938 11.507 15.209 16.97 10.829 11.224 21.807 22.305 32.823 33.343C61.83 67.156 72.423 77.487 82.91 87.928c1.683 1.676 3.15 3.569 4.68 5.395a.969.969 0 0 1 .04.928c-.228.289-.737.65-1.007.57-4.963-1.467-9.976-2.804-14.844-4.55-11.32-4.064-22.986-6.827-34.66-9.575-1.919-.45-3.906-.948-5.842.031-.352.178-.941.496-.919.695.027.765.243 1.51.628 2.171a4.288 4.288 0 0 0 1.89 1.37c2.618.985 5.258 1.922 7.927 2.76C59.873 93.71 78.96 99.637 98.02 105.651c7.19 2.269 11.822 2.132 11.552-8.953-.078-3.193-.175-6.405-.566-9.571a4753.922 4753.922 0 0 0-5.645-44.023 38.074 38.074 0 0 0-1.423-5.783c-.374-1.264-1.458-1.82-2.698-1.994-1.366-.192-3.556 1.032-4.037 2.05-1.07 2.263-1.105 4.674-.936 7.056.651 9.174 1.385 18.342 2.124 27.509.482 5.973 1.039 11.936 1.51 17.908.023.294-.394.725-.708.912a1.024 1.024 0 0 1-.953-.066c-1.794-1.575-3.621-3.119-5.298-4.813a20996.213 20996.213 0 0 1-39.61-40.136l.121-.119Z" />
+    </svg>
+)
+
+export default SvgComponent
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <SvgComponent fill={'brown'} width={'20'} height={'20'} />,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
