@@ -1,6 +1,6 @@
 # React Doodle Icons
 
-Based on icons created by Khushmeen Sindhu @ [Doodle Icons](https://khushmeen.com/icons.html)
+Based on icons created by Khushmeen Sidhu @ [Doodle Icons](https://khushmeen.com/icons.html)
 
 
 SVGR for generating react components of SVGs

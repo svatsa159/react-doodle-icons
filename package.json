@@ -1,6 +1,6 @@
 {
   "name": "doodle-icons",
-  "version": "0.1.2",
+  "version": "1.1.0",
   "peerDependencies": {
     "@types/react": "^17.0.38",
     "react": "^17.0.2",
@@ -8,6 +8,15 @@
     "@types/react-dom": "^17.0.11",
     "react-dom": "^17.0.2"
   },
+  "keywords": [
+    "icons",
+    "icon",
+    "pack",
+    "doodle",
+    "doodles"
+  ],
+  "author": "Srivatsa Rampalli <svatsa159@gmail.com>",
+  "license": "MIT",
   "dependencies": {
   },
   "scripts": {
@@ -16,6 +25,10 @@
     "build-publish": "rollup -c",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svatsa159/react-doodle-icons.git"
   },
   "eslintConfig": {
     "extends": [
