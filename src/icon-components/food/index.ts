@@ -1,0 +1,14 @@
+export { default as Burger } from "./Burger";
+export { default as Cake } from "./Cake";
+export { default as Candy } from "./Candy";
+export { default as Cutlery } from "./Cutlery";
+export { default as Dish } from "./Dish";
+export { default as Drink } from "./Drink";
+export { default as Egg } from "./Egg";
+export { default as Fork } from "./Fork";
+export { default as IceCream } from "./IceCream";
+export { default as Pizza2 } from "./Pizza2";
+export { default as Pizza } from "./Pizza";
+export { default as Popsicle } from "./Popsicle";
+export { default as Spoon } from "./Spoon";
+export { default as Water } from "./Water";

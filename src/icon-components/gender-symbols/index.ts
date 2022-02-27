@@ -1,0 +1,12 @@
+export { default as Bisexual } from "./Bisexual";
+export { default as Female } from "./Female";
+export { default as Gay } from "./Gay";
+export { default as Genderless } from "./Genderless";
+export { default as Hetro } from "./Hetro";
+export { default as Intersex } from "./Intersex";
+export { default as Lesbian } from "./Lesbian";
+export { default as Male } from "./Male";
+export { default as NonBinaryTransgender } from "./NonBinaryTransgender";
+export { default as OtherGender } from "./OtherGender";
+export { default as Transgender2 } from "./Transgender2";
+export { default as Transgender } from "./Transgender";
